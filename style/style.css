@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul {
+  list-style: none;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  
+}
+
+.main {
+  margin-top: 84px;
+
+}
+
+.main__content {
+
+}
+
+.main__info {
+
+} 
+
+.main__info-title {
+
+}
+
+.main__info-descr {
+  margin-top: 17px;
+}
+
+.main__info-btns {
+  margin-top: 37px;
+}
+
+.main__partnership-list {
+  margin-top: 162px;
+}
