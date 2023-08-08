@@ -24,12 +24,22 @@ body {
   align-items: center;
 }
 
-.header__right-block {
-  display: flex;
-}
 
 .header__nav-items {
+  width: 533px;
   display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+}
+
+.header__nav-link_active {
+  color: #F25822;
 }
 
 .main {
