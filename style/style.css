@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,6 @@ body {
 
 .main {
   margin-top: 84px;
-
 }
 
 .main__content {
