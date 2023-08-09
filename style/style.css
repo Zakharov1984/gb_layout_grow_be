@@ -224,6 +224,7 @@ body {
 
 .services__item-btn {
   display: block;
+  position: relative;
   width: 150px;
   margin: 39px auto 0;
   border: none;
@@ -234,4 +235,16 @@ body {
   font-size: 13px;
   font-weight: 700;
   line-height: 150%; /* 19.5px */
+}
+
+.services__item-btn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 26px;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 8px;
+  background: url('../image/servicesImg/arrow_right.svg') center center / contain no-repeat; 
 }
