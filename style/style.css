@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,7 @@ body {
 }
 
 .header__nav-link {
+  padding: 11px 0;
   font-size: 14px;
   font-weight: 700;
   color: #000;
@@ -44,7 +45,6 @@ body {
 
 .main {
   margin-top: 84px;
-
 }
 
 .main__content {
